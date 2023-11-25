@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="cal.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<center>
+<body>
+    <h1> CALCULATOR </h1>
+
+    <form action="">
+        <table border="" cellpadding="5">
+        
+        <div>
+            <tr>
+            <th><input type="button" value="1" onclick=""></th>
+            <th><input type="button" value="2" onclick=""></th>
+            <th><input type="button" value="3" onclick=""></th>
+            <th><input type="button" value="4" onclick=""></th>
+            </tr>
+         </div>
+         <div>
+            <tr>
+            <th><input type="button" value="5" onclick="add"></th>
+            <th><input type="button" value="6" onclick="sub"></th>
+            <th><input type="button" value="7" onclick="mult"></th>
+            <th><input type="button" value="8" onclick="div"></th>
+            </tr>
+         </div>
+         <div>
+            <tr>
+            <th><input type="button" value="9" onclick=""></th>
+            <th><input type="button" value="0" onclick=""></th>
+            <th><input type="button" value="=" onclick="equal()"></th>
+            <th><input type="button" value="AC" onclick="clear()"></th>
+            </tr>
+         </div>
+        <div>
+            <tr>
+            <th><input type="button" value="+" onclick="add()"></th>
+            <th><input type="button" value="-" onclick="sub()"></th>
+            <th><input type="button" value="*" onclick="mult()"></th>
+            <th><input type="button" value="/" onclick="div()"></th>
+            </tr>
+        </div>   
+        <div>
+            <tr>
+            <td colspan ="4">
+            <label for="answer"> Result</label>
+            <input type="text" name="answer" readonly id="answer">
+            </td>
+            </tr>
+        </div>
+    </form>
+    <script src="cal.js"></script>   
+</center> 
+</table>
+</body>
+
+</html>
